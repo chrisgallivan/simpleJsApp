@@ -1,0 +1,8 @@
+appName: "BroncoMexico"
+environments: 
+  - name: dev
+    credentialId: DryRun
+platform: "N/A"
+terraform: true
+emailList: ""
+hangoutsToken: "vCgad3N0mJFW-ryyFWCEx0jM2"
