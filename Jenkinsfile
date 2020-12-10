@@ -4,6 +4,7 @@ pipeline {
         stage('Build') {
             steps {
                 echo 'Building..'
+                env.NODEJS_HOME = "${tool 'Node 6.x'}"
                 sh 'npm install-test'
 
             }
